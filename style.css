@@ -1,0 +1,380 @@
+.small-text {
+  font-size: 12px;
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  background-color: white; /* Set background color to white */
+  color: black; /* Set text color to black */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  
+}
+
+.container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: justify;
+}
+
+/* Volunteer Section */
+.content {
+  columns: 1; /* Specify the number of columns */
+  column-gap: 180px; /* Add gap between columns */
+  text-align: center;
+  column-width: 300px;
+}
+
+.volunteer-item1{
+  max-width: 800px;
+  margin-bottom: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: justify;
+}
+
+/* blocks  */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.project-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.project-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-item:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+/* Header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Sections */
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+
+/* Research Project */
+.research-item1{
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.research-item2{
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  flex: 1;
+}
+
+
+
+/* Resume section */
+.resume-link a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-link a:hover {
+  background-color: #ffc107;
+}
+
+.resume-box {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.resume-box iframe {
+  display: block;
+}
+
+/* Education */
+.education-item1{
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.education-item2{
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  flex: 1;
+}
+
+/* Contact form */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ffc107;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  /* background: url("/cover.jpg") center/cover no-repeat; */
+  padding: 20px 0;  
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #ffc107;
+}
+
+.photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-item {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
+/* logo section */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item img {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  cursor: pointer;
+}
+
+.contact-text {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+
+
+/* Portfolio section */
+.portfolio-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  flex-basis: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  margin-bottom: 10px;
+}
+
+.portfolio-item a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+  background-color: #ffc107;
+}
+
+
+/* image in project box */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #333;
+  height: 100px; /* Set the desired height here */
+}
+
+.project-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the blur intensity */
+  opacity: 0; /* Start with zero opacity */
+  transition: opacity 0.3s ease;
+}
+
+.project-item:hover::before {
+  opacity: 1; /* On hover, show the blurred background */
+}
+
+.project-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.project-content h3 {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.project-item:hover .project-content {
+  z-index: 1; /* Ensure the title is displayed over the image */
+}
