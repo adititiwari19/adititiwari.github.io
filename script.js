@@ -15,7 +15,8 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const sentence = "Hi, I'm Aditi. I'm passionate about all things machine learning and artificial intelligence.";
+  //const sentence = "Hi, I'm Aditi. I'm passionate about all things machine learning and artificial intelligence.";
+  const sentence = "Hi, I'm Aditi. I'm passionate about machine learning, photography, art, music, and travelling.";
   const typingTextElement = document.getElementById("typing-text");
   const typingCursorElement = document.getElementById("typing-cursor");
 
