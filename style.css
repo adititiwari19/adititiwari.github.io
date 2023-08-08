@@ -102,6 +102,15 @@ nav ul li a:hover {
   color: #ffc107;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other content */
+  background-color: rgba(2, 3, 17, 0.273); /* Adjust the background color as needed */
+  padding: 10px; /* Add padding to create space around the links */
+}
+
 /* Sections */
 section {
   padding: 80px 0;
